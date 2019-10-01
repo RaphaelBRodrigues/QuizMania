@@ -1,0 +1,52 @@
+<style media="screen">
+@font-face{
+  font-family: trin;
+  src: url(Fontes/trin.otf);
+}
+  #img-logo{
+    width: 8em;
+    padding: 10px;
+  }
+  .login {
+  color: white;
+   font-size: 1px;
+  }
+   .menu_cabeça{
+    font-family: trin;
+
+  }
+
+h1{
+  margin-top: 220px;
+  color: black;
+  font-family: trin;
+}
+
+    @media screen and (max-width: 600px) {
+      #img-logo{
+        width: 6em;
+        padding: 3px;
+        position: relative;
+        top: -2.5em;
+        left: 0.5em;
+      }
+      .menu_cabeça{
+        position: relative;
+        text-align: center;
+
+
+      }
+      #nome{
+        position: relative;
+        text-align: center;
+         top:1.3em;
+      }
+      .navbar-toggle{
+            margin-top: -17px;
+      }
+      .navbar-header{
+        height: 120px;
+      }
+    }
+
+</style>
